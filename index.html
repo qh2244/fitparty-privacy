@@ -8,20 +8,25 @@
 :root{--bg:#f6f4ef;--fg:#1f1d1a;--muted:#6b665c;--line:#e2ddd2;--accent:#9a6400}
 @media (prefers-color-scheme:dark){:root{--bg:#16161a;--fg:#ecebe6;--muted:#a19d93;--line:#2c2c33;--accent:#f0b43c;color-scheme:dark}}
 body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
-main{max-width:680px;margin:0 auto;padding:40px 20px 64px}
+main{max-width:680px;margin:0 auto;padding:24px 20px 64px}
+nav{display:flex;flex-wrap:wrap;gap:16px;padding-bottom:12px;margin-bottom:24px;border-bottom:1px solid var(--line)}
+nav a{color:var(--muted);text-decoration:none;font-weight:600}
+nav a[aria-current]{color:var(--fg)}
 h1{font-size:1.9rem;line-height:1.2;margin:0 0 4px;text-wrap:balance}
 .date{color:var(--muted);margin:0 0 28px}
-h2{font-size:1.1rem;margin:28px 0 6px}
+h2{font-size:1.15rem;margin:32px 0 6px}
+h3{font-size:1rem;margin:20px 0 4px}
 p,li{margin:6px 0} ul{padding-left:20px}
 a{color:var(--accent)}
 </style>
 </head>
 <body><main>
+<nav><a href="./" aria-current="page">Privacy</a><a href="support/">Help &amp; Feedback</a><a href="terms/">Terms</a></nav>
 <h1>Fit Party Privacy Policy</h1>
-<p class="date">Last updated: October 12, 2026</p>
+<p class="date">Last updated: October 13, 2026</p>
 <p>Fit Party is a fitness app for training, meal prep and training with friends in a party. This policy explains what data the app keeps, where, and what you can do about it.</p>
 <h2>Stored only on your phone</h2>
-<p>Workouts and training plans, meals, menus and shopping lists, body weight and measurements, pets and achievements. These are never uploaded to our server. Deleting the app, or Settings › Data › Clear Data on This Phone, removes them. You can export a backup at any time in Settings › Data.</p>
+<p>Workouts and training plans, meals, menus and shopping lists, body weight and measurements, pets and achievements. These are never uploaded to our server. Deleting the app, or Settings › Data › Clear Data, removes them. You can export a backup at any time in Settings › Data.</p>
 <h2>Stored on our server</h2>
 <p>The party features need a small amount of data on our server:</p>
 <ul>
@@ -52,5 +57,5 @@ a{color:var(--accent)}
 <h2>Changes</h2>
 <p>If this policy changes, we’ll update it here and in the app, along with the date at the top.</p>
 <h2>Contact</h2>
-<p>Questions or requests about your data: <a href="mailto:qifenghuang@outlook.com">qifenghuang@outlook.com</a>.</p>
+<p>Questions or requests about your data: <a href="mailto:qifhuang101@gmail.com">qifhuang101@gmail.com</a>.</p>
 </main></body></html>
